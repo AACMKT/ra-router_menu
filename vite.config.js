@@ -6,7 +6,7 @@ export default defineConfig(({ _command, mode }) =>{
   console.log(mode)
   if (mode !== 'development') {
     return {
-      base: "/ra-router_menu",
+      base: "/ra-router_menu/",
       plugins: [react()],
     }
     

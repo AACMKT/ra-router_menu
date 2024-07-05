@@ -4,7 +4,6 @@ import { HomePage, DriftPage, TimeAttackPage, ForzaPage } from './components';
 
 export default function App() {
   let url = import.meta.env.VITE_url
-  console.log(url)
   return (
     <Router basename={ url }>
       <div>
